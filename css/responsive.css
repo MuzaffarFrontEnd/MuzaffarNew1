@@ -1,0 +1,34 @@
+@media only screen and (max-width:768px){
+    .navbar__nav a{
+        display: none;
+    }
+    .navbar__nav .fa-bars{
+        display: block;
+    }
+    .banner h1{
+        font-size: 3rem;
+    }
+    .banner h1 span{
+        font-size: 3rem;
+    }
+    .banner form{
+        width: 80%;
+        overflow: hidden;
+    }
+    .design__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .blog__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+    .about_content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
